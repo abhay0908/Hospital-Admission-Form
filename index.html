@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Hospital Admission Form </title> </head>
+<style>
+body{
+font-family: Arial Rounded MT; margin: 0;
+}
+header { background-color:#2980B9 ; text-align: center; font-weight: bold;
+color: white;
+font-size: 45px;
+padding: 20px;
+font-family: Georgia;
+}
+.div_first{
+padding: 3px 0px 3px 3px; margin: 0px 45px 0px 45px; font-size: 18px; background-color: #AED6F1; color: white;
+}
+.div_second{
+padding: 5px 0px 3px 3px; margin:0px 45px 0px 45px; font-size: 12px;
+border: 1px solid #AED6F1; }
+</style> <body>
+<header>
+<img src="logo.jpeg" alt="logo" height=40px width=40px></img>
+CRESCENT HEART CARE
+</header>
+<br>
+<div class="div_first"> PERSONAL AND ADMINISTRATION DETAILS: </div> <div class="div_second">
+<form>
+<lable for="lname" style="margin:3px 5px 3px 3px">Last Name: </lable>
+<input type="text" style="margin:3px 5px 3px 3px" id="lname" name="lname" value="">
+<label for="prefix1" style="margin:3px 5px 3px 35px" > Miss </label> <input type="checkbox" id="prefix1" name="prefix1" value="Miss"> <label for="prefix2" style="margin-left:5px"> Mr </label>
+<input type="checkbox" id="prefix2" name="prefix2" value="Mr">
+<lable for="fname" style="margin:3px 5px 3px 35px">First Name: </lable>
+<input type="text" style="margin:3px 5px 3px 3px" id="fname" name="fname" value="">
+<lable for="pname" style="margin:3px 5px 3px 35px">Preferred Name: </lable>
+<input type="text" style="margin:3px 5px 3px 3px" id="pname" name="pname" value="">
+<lable for="dob" style="margin:3px 5px 3px 35px">Date Of Birth: </lable> <input type="date" style="margin:3px 5px 3px 3px" id="dob" name="dob" >
+<br><br>
+<label for="gender" style="margin:3px 5px 3px 3px" > Gender: </label> <label for="gender1" style="margin:3px 5px 3px 3px" > Female </label> <input type="checkbox" id="gender1" name="gender1" value="female"> <label for="gender2" style="margin-left:5px"> Male </label>
+<input type="checkbox" id="gender2" name="gender2" value="male"> <label for="gender3" style="margin-left:5px"> Other </label>
+<input type="checkbox" id="gender3" name="gender3" value="other">
+<label for="nhi" style="margin:3px 5px 3px 40px" > NHI </label> <input type="text" id="nhi" name="nhi" value="">
+<label for="address1" style="margin:3px 5px 3px 35px" > Residential Address:</label> <input type="text" id="address1" name="address1" value="">
+
+<label for="address2" style="margin:3px 5px 3px 35px" > Postal Address:</label> <input type="text" id="address2" name="address2" value="">
+<label for="email" style="margin:3px 5px 3px 35px" > Email:</label> <input type="text" id="email" name="email" value="">
+<br><br>
+<label for="mobile_no" style="margin:3px 5px 3px 3px" > Mobile No.:</label> <input type="text" id="mobile_no" name="mobile_no" value="">
+<label for="buisness_no" style="margin:3px 5px 3px 35px" > Buisness No:</label> <input type="text" id="buisness_no" name="buisness_no" value="">
+<label for="resident" style="margin:3px 5px 3px 39px" > India Resident: </label> <label for="yes" style="margin:3px 5px 3px 3px" > Yes </label>
+<input type="radio" id="yes" name="indian" value="yes">
+<label for="no" style="margin-left:5px"> No </label>
+<input type="radio" id="no" name="indian" value="no">
+<label for="practitioner" style="margin:3px 5px 3px 35px" > General Practitioner:</label> <input type="text" id="practitioner" name="practitioner" value="">
+<label for="phone1" style="margin:3px 5px 3px 35px" > Telephone:</label> <input type="text" id="phone1" name="phone1" value="">
+<br><br>
+<p style="color:#2980B9; font-size:15px;"><b><u>EMERGENCY CONTACTS:-</u></b></p>
+<label for="name" style="margin:3px 5px 3px 3px" > Name:</label> <input type="text" id="name" name="name" value="">
+<label for="relation" style="margin:3px 5px 3px 35px" >Relationship to Patient:</label> <input type="text" id="relation" name="relation" value="">
+<label for="add" style="margin:3px 5px 3px 35px" >Address:</label> <input type="text" id="add" name="add" value="">
+<label for="phone2" style="margin:3px 5px 3px 35px" > Telephone:</label> <input type="text" id="phone2" name="phone2" value="">
+<br><br>
+</form> </div>
+<div class="div_first"> PAYMENT DETAILS: </div> <div class="div_second">
+<form>
+<span style="font-size:15px;">How will your procedure be paid for? Tick and complete as many as applies: </span>
+
+<br><br>
+<input type="checkbox" id="health" name="health" value="health">
+<label for="health" style="margin:3px 5px 3px 3px" > Health Insurance <i>(personal expenses such as telephones call are exculded)</i> :</label>
+<br>
+<lable for="insurer" style="margin:3px 5px 3px 35px">Name of Insurer: </lable>
+<input type="text" style="margin:3px 5px 3px 3px" id="insurer" name="insurer" value="">
+<lable for="plan" style="margin:3px 5px 3px 35px">Insurance Plan Name: </lable> <input type="text" style="margin:3px 5px 3px 3px" id="plan" name="plan" value="">
+<lable for="membership" style="margin:3px 5px 3px 35px">Membership: </lable>
+<input type="text" style="margin:3px 35px 3px 3px" id="membership" name="membership" value="">
+Have you obtained "prior approval" for payment?
+<label for="yes1" style="margin:3px 0px 3px 3px" > Yes </label> <input type="radio" id="yes1" name="approval" value="yes1"> <label for="no1" style="margin-left:5px"> No </label>
+<input type="radio" id="no1" name="approval" value="no1">
+<br><br>
+<input type="checkbox" id="acc" name="acc" value="acc">
+<label for="acc" style="margin:3px 20px 3px 3px" > ACC <i>(personal expenses such as telephones call are exculded)</i> </label>
+<input type="checkbox" id="dhb" name="dhb" value="dhb">
+<label for="dhb" style="margin:3px 5px 3px 3px" > DHB <i>(personal expenses such as telephones call are exculded)</i> </label>
+<br><br>
+<input type="checkbox" id="paid" name="paid" value="paid">
+<label for="paid" style="margin:3px 20px 3px 3px" > Paid Personally (If you are paying for the procedure yourself, you may be
+asked to pay an estimated deposit before admission. The balance of your account must be settled on discharge.) </label>
+<br><br>
+I will pay my account by:
+<label for="cheque" style="margin:3px 0px 3px 35px" > Cheque </label>
+<input type="checkbox" id="cheque" name="cheque" value="cheque">
+<label for="cash" style="margin:3px 0px 3px 35px" > Cash </label>
+<input type="checkbox" id="cash" name="cash" value="cash">
+<label for="credit" style="margin:3px 0px 3px 35px" > Credit Card</label>
+<input type="checkbox" id="credit" name="credit" value="credit">
+<label for="debit" style="margin:3px 0px 3px 35px" > Debit Card </label>
+<input type="checkbox" id="debit" name="debit" value="debit">
+<label for="banking" style="margin:3px 0px 3px 35px" > Internet Banking </label> <input type="checkbox" id="banking" name="banking" value="banking">
+
+<br><br>
+<p><u><b>For Internet Banking:</b></u></p>
+<p>Payee: Crescent Heart Care Ltd
+<span style="margin-left:50px;">Bank a/c: 12-3113-0122323-00</span> <span style="margin-left:50px;">Particulars: Surname/First Name</span>
+<span style="margin-left:50px;">
+<lable for="code" style="margin:3px 5px 3px 3px">Code: </lable>
+<input type="date" style="margin:3px 5px 3px 3px" id="code" name="code"></span> <span style="margin-left:50px;">Reference: Deposit</span></p>
+</form> </div>
+<div class="div_first"> AGREEMENT: </div> <div class="div_second">
+<span style="font-family: SansSerif;">
+I have been informed of such risks, as well as the nature of the Procedure, the likelihood of achieving goals, the expected benefits or effects of such Procedure, including side effects and potential problems that might occur during recuperation, and the reasonable alternative methods of treatment and their risks and benefits. I have also been informed of the consequences of declining the Procedure and the reasonable alternatives.
+<br> <form>
+<lable for="name2" style="margin:3px 5px 3px 3px">Name: </lable>
+<input type="text" style="margin:3px 5px 3px 3px" id="name2" name="name2" value="">
+<lable for="date2" style="margin:3px 5px 3px 35px">Date: </lable>
+<input type="date" style="margin:3px 5px 3px 3px" id="date2" name="date2" value="">
+<lable for="signature" style="margin:3px 5px 3px 35px">Signature: </lable>
+<input type="text" style="margin:3px 35px 3px 3px" id="signature" name="signature" value="">
+If not the patient, state relationship to patient:
+<input type="text" style="margin:3px 5px 3px 3px" id="insurer" name="insurer" value=""></span>
+</form> </div>
+</body> </html>
